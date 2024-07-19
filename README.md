@@ -1,8 +1,15 @@
-# React + Vite
+CRYPTOHUB:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+O projeto consiste na criação de um site de rastreamento de preços de criptomoedas utilizando React JS. Este site permite aos usuários obterem o preço em tempo real das criptomoedas por meio da API CoinGecko. Usando os dados fornecidos pela API, também será possível construir gráficos de preços.
 
-Currently, two official plugins are available:
+Funcionalidades principais:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Barra de Pesquisa: Permite aos usuários pesquisarem por moedas individuais.
+Tabela de Preços: Exibe informações detalhadas sobre as criptomoedas, incluindo preço atual, valor de mercado, variação de preço em 24 horas e classificação de mercado.
+Este projeto visa proporcionar aos usuários uma plataforma fácil de usar para monitorar e analisar os preços das criptomoedas em tempo real.
+
+
+
+
+
+
