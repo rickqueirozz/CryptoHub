@@ -26,7 +26,7 @@ useEffect(()=> {
           <p>Coins</p>
           <p>Price</p>
           <p style={{textAlign:"center"}}>24H Change</p>
-          <p style={{textAlign:"end"}}>Market Cap</p>
+          <p className='market-cap'>Market Cap</p>
         </div>
         {
           displayCoin.slice(0,10).map((item, index)=>(
@@ -40,7 +40,7 @@ useEffect(()=> {
               <p className={item.price_change_percentage_24h > 0?"green" : "red" }>
                 {Math.floor(item.price_change_percentage_24h*100)/100}
               </p>
-              <p style={{textAlign:"end"}}>{currency.symbol} {item.market_cap.toLocaleString()}</p>
+              <p className="market-cap">{currency.symbol} {item.market_cap.toLocaleString()}</p>
             </div>
           ))
         }

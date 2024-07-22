@@ -33,3 +33,9 @@
 .navbar option{
   background-color: #09005c;
 }
+
+@media (max-width:768px){
+  .navbar ul {
+    display: none;
+  }
+}
