@@ -31,7 +31,10 @@ useEffect(()=> {
         <h1>Largest <br /> Crypto Marketplace</h1>
         <p>Welcome to crypto marketplace.</p>
         <form onSubmit={searchHandler}>
-          <input onChange={inputHandler} value={input} type="text" placeholder='Search crypto...' required/>
+          <input onChange={inputHandler} list='coinlist' value={input} type="text" placeholder='Search crypto...' required/>
+          <datalist id='coinlist'>
+            {allCoin.map((item, index)=>(<option key={index} value={item.name}/>))}
+          </datalist>
           <button>Search</button>
         </form>
       </div>
