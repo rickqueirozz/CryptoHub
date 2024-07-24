@@ -1,6 +1,8 @@
 import React, { useContext } from 'react'
 import './NavBar.css'
 import { CoinContext } from '../../context/CoinContext'
+import { Link } from 'react-router-dom'
+
 
 const NavBar = () => {
   
@@ -29,9 +31,9 @@ const NavBar = () => {
 
   return (
     <div className='navbar'>
-      <h1>CryptoHub</h1>
+      <h1><Link to="/">CryptoHub</Link></h1>
       <ul>
-        <li>Home</li>
+      <Link to="/"><li>Home</li></Link>
         <li>Features</li>
         <li>Pricing</li>
         <li>Blog</li>
