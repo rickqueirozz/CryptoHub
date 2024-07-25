@@ -21,11 +21,11 @@ CryptoHub é um site de rastreamento de preços de criptomoedas criado com React
 
 1. Clone o Repositório:
 ```bash
-git clone https://github.com/seu-usuario/cryptohub.git
+git clone https://github.com/seu-usuario/CryptoHub.git
   ```
 2. Navegue até o Diretório do Projeto:
 ```bash
-cd cryptohub
+cd CryptoHub
 ```
 
 3. Instale as Dependências:
