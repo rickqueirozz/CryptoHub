@@ -2,6 +2,7 @@ import React, { useContext, useEffect, useState } from 'react'
 import './Coin.css'
 import { useParams } from 'react-router-dom'
 import { CoinContext } from '../../context/CoinContext';
+import LineChart from '../../components/LineChart/LineChart';
 
 const Coin = () => {
   const {coinId} = useParams();
@@ -46,7 +47,7 @@ const Coin = () => {
           <p><b>{coinData.name} ({coinData.symbol.toUpperCase()})</b></p>
         </div>
         <div className="coin-chart">
-           
+           <LineChart historicalData={historicalData}/>
         </div>
       </div>
     )
