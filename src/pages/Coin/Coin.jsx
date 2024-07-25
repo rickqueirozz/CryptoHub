@@ -36,6 +36,7 @@ const Coin = () => {
 
   useEffect(() => {
     fetchCoinData();
+    fetchHistoricalData();
   }, [currency])
 
 
