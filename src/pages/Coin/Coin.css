@@ -13,11 +13,11 @@
   border-radius: 50%;
   animation: rotate 2s infinite;
 }
-@keyframe rotate{
-  100%{
+@keyframes rotate {
+  100% {
     transform: rotate(360deg);
   }
-} 
+}
 
 .coin{
   padding: 0 20px;
