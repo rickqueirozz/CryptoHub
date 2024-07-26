@@ -5,6 +5,7 @@ CryptoHub é um site de rastreamento de preços de criptomoedas criado com React
 ## Funcionalidades Principais
 
 - **Barra de Pesquisa**: Permite que os usuários pesquisem por criptomoedas individuais.
+- **Opção de Exibir Valores em USD, EUR e BRL**: Permite visualizar os preços das criptomoedas em diferentes moedas.
 - **Tabela de Preços**: Exibe informações detalhadas sobre as criptomoedas, incluindo:
   - Preço atual
   - Valor de mercado
